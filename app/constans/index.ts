@@ -1,113 +1,102 @@
 import {
     RxCrop,
-    RxDesktop,
-    RxPencil2,
     RxReader,
     RxRocket,
     RxAccessibility,
     RxHome,
     RxPerson,
     RxDashboard,
-  } from "react-icons/rx";
-  
-  export const Socials = [
+} from "react-icons/rx";
+
+export const Socials = [
     {
-      name: "Discord",
-      src: "/assets/discord.svg",
+        name: "Telegram",
+        src: "/assets/telegram.svg",
+        link: "https://t.me/dandel_ds",
     },
     {
-      name: "Facebook",
-      src: "/assets/facebook.svg",
+        name: "gitHub",
+        src: "/assets/gitHub.svg",
+        link: "https://github.com/aduvancik",
     },
     {
-      name: "Instagram",
-      src: "/assets/instagram.svg",
+        name: "Instagram",
+        src: "/assets/instagram.svg",
+        link: "https://www.instagram.com/aduvancik_official/",
     },
-  ];
-  
-  export const NavLinks = [
+];
+
+export const NavLinks = [
     {
-      name: "Home",
-      icon: RxHome,
-      link: "/",
-    },
-    {
-      name: "About me",
-      icon: RxPerson,
-      link: "/about-me",
+        name: "Home",
+        icon: RxHome,
+        link: "/",
     },
     {
-      name: "Projects",
-      icon: RxDashboard,
-      link: "/my-projects",
-    },
-  ];
-  
-  export const ProImages = [
-    {
-      src: "/assets/projects/SpaceCity.jpg",
+        name: "About me",
+        icon: RxPerson,
+        link: "/about-me",
     },
     {
-      src: "/assets/projects/SpaceCity1.jpg",
+        name: "Projects",
+        icon: RxDashboard,
+        link: "/my-projects",
+    },
+];
+
+export const ProImages = [
+    {
+        src: "/assets/projects/1.jpg",
+        link: "https://shopchik-3c85d.web.app/",
     },
     {
-      src: "/assets/projects/SpaceCity2.jpg",
+        src: "/assets/projects/2.jpg",
+        link: "https://debate-night.netlify.app/",
     },
     {
-      src: "/assets/projects/SpaceCity3.jpg",
-    },
-  ];
-  
-  export const ProImages2 = [
-    {
-      src: "/assets/projects/Orange1.jpeg",
+        src: "/assets/projects/3.jpg",
+        link: "https://taupe-semolina-2d754d.netlify.app/",
     },
     {
-      src: "/assets/projects/Orange2.jpeg",
+        src: "/assets/projects/4.jpg",
+        link: "https://peppy-marzipan-4027e3.netlify.app/#",
+    },
+];
+
+export const ProImages2 = [
+    {
+        src: "/assets/projects/5.jpg",
+        link: "https://lustrous-sunburst-89debe.netlify.app",
+    },
+];
+
+export const ServiceData = [
+    {
+        icon: RxReader,
+        title: "Frontend Development",
+        backgroundImage: "/assets/space/SpaceCity7.jpeg",
+        content:
+            "Building responsive websites with HTML, CSS, SCSS, Tailwind CSS, and Bootstrap.",
     },
     {
-      src: "/assets/projects/Orange3.jpeg",
+        icon: RxRocket,
+        title: "JavaScript & Frameworks",
+        backgroundImage: "/assets/space/SpaceCity8.jpeg",
+        content:
+            "Developing interactive web applications with JavaScript, ReactJS, NextJS, and TypeScript.",
     },
     {
-      src: "/assets/projects/Orange4.jpeg",
-    },
-  ];
-  
-  export const ServiceData = [
-    {
-      icon: RxReader,
-      title: "Seo",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      backgroundImage: "/assets/space/SpaceCity7.jpeg",
+        icon: RxAccessibility,
+        title: "State Management",
+        backgroundImage: "/assets/space/SpaceCity5.jpeg",
+        content:
+            "Efficiently managing application state with Redux for scalable and maintainable solutions.",
     },
     {
-      icon: RxCrop,
-      title: "Development",
-      content: "Lorem ipsum dolor sit /amet, consectetur adipiscing elit.",
-      backgroundImage: "/assets/space/SpaceCity9.jpeg",
+        icon: RxCrop,
+        title: "Version Control",
+        backgroundImage: "/assets/space/SpaceCity9.jpeg",
+        content:
+            "Collaborating on projects using Git and GitHub to maintain code quality and streamline teamwork.",
     },
-    {
-      icon: RxPencil2,
-      title: "Branding",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      backgroundImage: "/assets/space/SpaceCity1.jpg",
-    },
-    {
-      icon: RxDesktop,
-      title: "Design",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      backgroundImage: "/assets/space/SpaceCity6.jpeg",
-    },
-    {
-      icon: RxAccessibility,
-      title: "Management",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      backgroundImage: "/assets/space/SpaceCity5.jpeg",
-    },
-    {
-      icon: RxRocket,
-      title: "Production",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      backgroundImage: "/assets/space/SpaceCity8.jpeg",
-    },
-  ];
+];
