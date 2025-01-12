@@ -68,6 +68,18 @@ export const ProImages2 = [
         src: "/assets/projects/5.jpg",
         link: "https://lustrous-sunburst-89debe.netlify.app",
     },
+    {
+        src: "/assets/projects/6.jpg",
+        link: "https://thunderous-vacherin-533916.netlify.app/",
+    },
+    {
+        src: "/assets/projects/7.jpg",
+        link: "https://sensational-bublanina-2f81a8.netlify.app/",
+    },
+    {
+        src: "/assets/projects/8.jpg",
+        link: "https://calm-cuchufli-ade701.netlify.app/",
+    },
 ];
 
 export const ServiceData = [
