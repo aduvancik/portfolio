@@ -3,7 +3,7 @@ import ProjectSlider from "../components/ProjectSlider";
 
 const page = () => {
     return (
-        <div className="flex items-center justify-center gap-5 flex-col pt-[100px] md:pt-0 lg:flex-row h-screen bg-[#0C011A]">
+        <div className="flex items-center justify-center gap-5 md:pl-0 pl-[20px] flex-col pt-[100px] md:pt-0 lg:flex-row h-screen bg-[#0C011A]">
             <div className="flex flex-col gap-3">
                 <h1 className=" text-[50px] text-white font-semibold">
                     My works<span className="text-red-500">.</span>

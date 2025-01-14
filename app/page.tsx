@@ -23,8 +23,8 @@ export default function Home() {
                 height={230}
                 className="absolute left-0 top-0"
             />
-            <div className="flex flex-col gap-3 z-[10] pl-40 pt-20">
-                <h1 className="text-[50px] text-white max-w-[500px]">
+            <div className="flex flex-col gap-3 z-[10] pl-10 md:pl-40 pt-20">
+                <h1 className="text-[25px] md:text-[50px] text-white max-w-[500px]">
                     Transforming ideas into{" "}
                     <span className="text-red-500">Digital Reality</span>
                 </h1>

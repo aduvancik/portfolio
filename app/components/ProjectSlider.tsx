@@ -27,8 +27,8 @@ const ProjectSlider = () => {
                 }}
                 modules={[FreeMode, Pagination]}
             >
-                <SwiperSlide className="mb-14">
-                    <div className="grid grid-cols-2 gap-4 px-16 max-w-max">
+                <SwiperSlide className="mb-14 w-full">
+                    <div className="grid grid-cols-2 gap-4 md:px-16 max-w-max ">
                         {ProImages.map((image) => (
                             <Link key={image.src} href={image.link}>
                                 <div className="relative group w-max max-w-[100%] h-[150px] md:h-[230px] md:max-w-[100%] min-w-[100%]">
